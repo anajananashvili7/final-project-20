@@ -1118,11 +1118,12 @@ font-family: 'Caveat', cursive;
 
 .shop-second-div {
     display: flex;
+
    
 }
 
 .shop-second-div img {
-    width:70%;
+    width:100%;
 }
 
 .shop-desc {
@@ -1284,6 +1285,14 @@ font-family: 'Caveat', cursive;
         margin-top: 10px;
       
     }
+    .shop-main-div {
+    gap:50px;
+
+    }
+
+    .shop-main-img img {
+width:100%;
+    }
 
 
 }
@@ -1362,6 +1371,17 @@ font-family: 'Caveat', cursive;
         width:100%
     }
 }
+
+@media screen and (max-width: 610px) {
+    .shop-main-div {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .shop-second-div {
+        width:100%
+    }
+  }
 
 @media screen and (max-width: 600px) {
     .column, input[type=submit] {
