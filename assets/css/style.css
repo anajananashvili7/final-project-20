@@ -98,6 +98,8 @@ a {
     border-radius: 100px;
     outline: none;
   }
+
+  
   
   .search-button {
     background: transparent;
@@ -500,6 +502,12 @@ a {
     float: right;
     font-size: 28px;
     font-weight: bold;
+}
+
+.modal-flex {
+    display: flex;
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
 }
 
 .close:hover,
@@ -1149,9 +1157,6 @@ border-radius: 20px;
 
 
 
-
-
-
 @media only screen and (max-width:1250px) {
     .stories-block {
         display: flex;
@@ -1424,6 +1429,14 @@ font-family: 'Caveat', cursive;
     .shop-main-img img {
 width:100%;
     }
+
+    .modal-flex {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Caveat', cursive;
+        color:orangered;
+    }
+ 
 
 
 }
