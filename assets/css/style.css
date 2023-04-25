@@ -23,6 +23,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container-project {
+    margin :50px auto;
+    max-width: 1800px;
+    width:98%
+}
 
 html {
     font-size: 62.5%;
